@@ -1,4 +1,5 @@
 import React, { use } from "react";
+import User from "./Components/User/User";
 
 const Users2 = ({ usersPromise }) => {
   const users = use(usersPromise);
@@ -6,6 +7,9 @@ const Users2 = ({ usersPromise }) => {
   return (
     <div>
       <h3>This is User 2</h3>
+      {users.map((user) => (
+        <User key={user.id} user={user}></User>
+      ))}
     </div>
   );
 };
