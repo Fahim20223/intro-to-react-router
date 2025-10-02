@@ -6,6 +6,7 @@ const PostDetails = () => {
 
   return (
     <div>
+      <h2>Post details are here</h2>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
     </div>
