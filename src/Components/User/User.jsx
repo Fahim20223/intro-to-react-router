@@ -6,7 +6,7 @@ const User = ({ user }) => {
   const userStyle = {
     border: "2px solid green",
     borderRadius: "20px",
-    padding: "10px0",
+    padding: "10px",
     margin: "10px",
   };
   return (
